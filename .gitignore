@@ -1,0 +1,27 @@
+# Compiled pycode
+*.pyc
+
+# VIM tags and swap files
+tags
+*.swp
+
+# Model weigth and numpy files
+*.npy
+*.hdf5
+*.h5
+
+# CSV files
+*.csv
+
+# Ignore input/output dirs
+input
+output
+trained
+weights
+
+# Ignore bin, lib dirs
+bin
+lib
+
+# Backup files
+*.bkp
