@@ -2,6 +2,8 @@
 This program is framework for 2D and 3D human pose estimation and action recognition.
 This code is corrected errors in the original code and easily derive the results. In case of 2D Dataset, MPII, visualizing pose estimation result for single person.
 
+![Github](https://user-images.githubusercontent.com/71116312/92901675-9f4c4b00-f45b-11ea-989c-e7116531289c.png)
+
 # Requirement
 Install required python packages as below:
 
