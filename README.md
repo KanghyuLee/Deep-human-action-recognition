@@ -17,14 +17,14 @@ Then, locate each dataset in `Deep-human-action-recognition/datasets/MPII or NTU
 
 In case of NTU, you have to run `extract-resize-videos.py` to extract frames from videos at first. To run `extract-resize-videos.py`, parameter which denote how many number of subjects in NTU dataset is used to train have to be input.
 
-## 2. 2D pose estimation
+## 2. 2D pose estimation (MPII)
 ### Train
 `train_pmii_singleperson.py` can train model, but you need to revise dataset directory in line 55. This process is not required because `eval_mpii_singleperson.py` downloads the weights that the author has already uploaded and run.
 
 ### Test
 `eval_mpii_singleperson.py` is test code. If you train and have your own weight file, you have to change weight file path in line 30 and 31.
 
-## 3. 3D pose estimation and action recognition
+## 3. 3D pose estimation and action recognition (NTU RGB+D)
 ### Train
 `train_ntu_spnet.py` train spnet which is consists of pyramid and scale layers in TPAMI2020. Before training, datapaths have to be changed in line 66 ~ 78. Trained model is saved in h5 format in `Deep-human-action-recognition/exp/ntu`.
 
